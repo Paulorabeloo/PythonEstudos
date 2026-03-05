@@ -20,10 +20,10 @@ print(f"Numéro sucessor: ", numSucessor)
 print("------------------------")
 print("\n")
 
-num1 = int(input("Digite o primeiro número: "))
-num2= int(input("Digite o segundo número: "))
-num3 = int(input("Digite o terceiro número: "))
-num4 = int(input("Digite o quarto número: "))
+num1 = float(input("Digite o primeiro número: "))
+num2= float(input("Digite o segundo número: "))
+num3 = float(input("Digite o terceiro número: "))
+num4 = float(input("Digite o quarto número: "))
 
 media = (num1 + num2 + num3 + num4) / 4
 print(f"A média dos números {num1} + {num2} + {num3} + {num4} é: ", media)
