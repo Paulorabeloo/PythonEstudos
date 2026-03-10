@@ -12,14 +12,19 @@ separadas por um espaço e troque os dois primeiros caracteres de cada string.
 ex: abc xvz -> xvc abz
 """
 
-gameName = "Fifa 23"
-print(gameName + " -> " + gameName.replace("f", "$"))
+name = input("Digite o nome do jogo\n")
 
-line = "="
-print(line * 25 + "\nEx2 :")
+char = name[0].lower()
+new_name = name.replace(char, '$')
+new_name = char + new_name[1:]
+print(new_name)
 
-gameName = "abc xvz"
-gameName.split(" ")
-gameName.replace("c", "z")
-gameName.replace("z", "c")
-print(gameName)
+#Troca de Caracteres
+
+st1 = "cab" #zyb
+st2 = "zyx" #cax
+
+new_st1 = st2[:2] + st1[2:]
+print(new_st1)
+new_st2 = st1[:2] + st2[2:]
+print(new_st2)
